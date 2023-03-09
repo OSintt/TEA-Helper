@@ -1,2 +1,2 @@
 # TEA-Helper
-MERN App to interact with Arduino Controller using Johnny-Five. Created for PHYCOM (Physical Programming Competition) 🤖
+MERN App to interact with Arduino Controller using Johnny-Five. Created for PHYCOM (Physical Computing Competition) 🤖
