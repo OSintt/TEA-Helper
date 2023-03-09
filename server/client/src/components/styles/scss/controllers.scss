@@ -1,0 +1,107 @@
+.controls {
+  border-radius: 25px;
+  padding: 0.5em;
+  background: #2c2f33;
+  margin: 1em 0;
+}
+
+.controller, .control-mid-mid {
+  background: #99aab5;
+  height: 125px;
+  width: 125px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.controller:active, .stop-button:active {
+    opacity: .8;
+}
+
+.control-bottom,
+.control-top {
+  justify-content: center;
+}
+
+/*.control-left, .control-right {
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+  }
+  
+  .control-bottom-mid, .control-top-mid {
+    border-right: 5px solid #000;
+    border-left: 5px solid #000;
+  }
+  
+  */
+
+.control-bottom-mid {
+  border-radius: 0 0 25% 25%;
+}
+
+.control-top-mid {
+  border-radius: 25% 25% 0 0;
+}
+
+.control-left {
+  border-radius: 25% 0 0 25%;
+}
+
+.control-right {
+  border-radius: 0 25% 25% 0;
+}
+
+.control-mid-mid {
+  align-items: center;
+  justify-content: center;
+  /* border: 5px solid #000; */
+}
+
+.stop-button {
+  padding: 1em;
+  border-radius: 25px;
+  border: 6px solid #2c2f33;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.main-buttons-container {
+    text-align: center;
+    grid-template-columns: auto auto;
+    display: grid;
+    margin: 1em 0;
+    padding: 1em;
+    align-content: center;
+}
+
+.main-buttons-left {
+    grid-row: 1/2;
+}
+.main-buttons-right {
+    grid-row: 1/2;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-buttons {
+    align-items: center;
+}
+
+.main-buttons-right .main-buttons div {
+    margin-left: 5px;
+}
+
+.bottom-buttons-container {
+    justify-content: space-between;
+}
+
+.bottom-button-container {
+    background: #2c2f33;
+    border-radius: 50%;
+}
